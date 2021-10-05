@@ -10,9 +10,11 @@ const NavBar = () => {
         <span className="fa fa-bars" aria-hidden="true"></span>
       </a>
 
-      <div className="logo">MS Strategies</div>
+      <div className="logo">
+        <h1>MS Strategies</h1>
+      </div>
 
-      <nav>
+      <nav id="main-menu" className="main-menu">
         <a
           href="#main-menu-toggle"
           className="menu-close"
